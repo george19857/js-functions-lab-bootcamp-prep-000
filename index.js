@@ -1,5 +1,5 @@
-describe (function happyHolidays() {
- ("Happy holidays!")
+function happyHolidays() {
+   returns("Happy holidays!")
 function happyHolidaysTo  ()
  show "Happy holidays, ${name}!"
 function happyHolidaysTo() show "Happy summer {$holidays}, ${name}!"
