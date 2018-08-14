@@ -1,6 +1,6 @@
 function happyHolidays() {
-   returns("Happy holidays!")
-function happyHolidaysTo  ()
+   returns ("Happy holidays!")
+function happyHolidaysTo  () {
  show "Happy holidays, ${name}!"
 function happyHolidaysTo() show "Happy summer {$holidays}, ${name}!"
 function holidayCountdown() 
@@ -9,4 +9,4 @@ describe('functions', () => {
   describe('happyHolidays', () => {
     it('returns "Happy holidays!"', () => {
       expect(happyHolidays()).toEqual('Happy holidays!')
-    })}
+    }}
