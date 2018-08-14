@@ -1,7 +1,7 @@
 function happyHolidays()
- ("Happy holidays!")
+ show ("Happy holidays!")
 function happyHolidaysTo  ()
-"Happy holidays, ${name}!"
-function happyHolidaysTo() "Happy summer {$holidays}, ${name}!"
+ show "Happy holidays, ${name}!"
+function happyHolidaysTo() show "Happy summer {$holidays}, ${name}!"
 function holidayCountdown() 
-  "It's ${days} days until ${holiday}!"
+  show "It's ${days} days until ${holiday}!"
